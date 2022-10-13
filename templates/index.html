@@ -22,17 +22,17 @@
         <div class="container col-4 mb-3 justify-content-center d-flex">
             <label for="currencycodefrom" class="form-label">Currency Code From: </label>
             <input type="text" class="form-control-sm" id="currencycodefrom" name="currencycodefrom" placeholder="<USD>"
-                style="text-transform:uppercase" maxlength="3" required>
+                style="text-transform:uppercase" maxlength="3" required autocomplete="off">
         </div>
         <div class="container col-4 mb-3 justify-content-center d-flex">
             <label for="currencycodeto" class="form-label">Currency Code To: </label>
             <input type="text" class="form-control-sm" id="currencycodeto" name="currencycodeto" placeholder="<GBP>"
-                style="text-transform:uppercase" maxlength="3" required>
+                style="text-transform:uppercase" maxlength="3" required autocomplete="off">
         </div>
         <div class="container col-4 mb-3 justify-content-center d-flex">
             <label for="amounttoconvert" class="form-label">Currency Amount: </label>
-            <input type="number" class="form-control-sm" id="amounttoconvert" name="amounttoconvert"
-                placeholder="<100.00>" step="any" required>
+            <input type="text" class="form-control-sm" id="amounttoconvert" name="amounttoconvert"
+                placeholder="<100.00>" step="any" required autocomplete="off">
         </div>
         <div class="container col-1 justify-content-center d-flex">
             <button type="input" class="btn btn-primary">Convert</button>

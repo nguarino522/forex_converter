@@ -40,3 +40,12 @@ class ConvertCurrency():
         symbol = self.cc.get_symbol(curr_code)
 
         return symbol
+    
+    def check_convert_valid_num(self, amount):
+        """to attempt to convert and verify a valid number was entered"""
+        
+        try:
+            float_num = float(amount)
+            return float_num
+        except:
+            return False
